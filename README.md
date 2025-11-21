@@ -12,3 +12,21 @@
 *Предметная область:*	Информатика, алгоритмы
 
 *Описание кейса:* Система для проверки корректности алгоритмических решений учащихся: анализ псевдокода, валидация логики, контроль граничных условий.
+
+## Системные зависимости
+
+* Ubuntu/Debian
+  - antlr4
+  - graphviz
+  - python3
+  - python3-pip
+  - python3-venv
+  - default-jre (для ANTLR Java версии)
+
+* macOS (Homebrew)
+  - graphviz
+  - python3
+
+* Windows
+  - Graphviz: https://graphviz.org/download/
+  - Python: https://www.python.org/downloads/
