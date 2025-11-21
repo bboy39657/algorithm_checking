@@ -30,3 +30,22 @@
 * Windows
   - Graphviz: https://graphviz.org/download/
   - Python: https://www.python.org/downloads/
+
+## ⚡ Быстрая установка (Ubuntu, Debian)
+
+1. Клонируйте репозиторий
+  <p><code>git clone https://github.com/bboy39657/algorithm_checking.git</code></p>
+  <p><code>cd algorithm_checking</code></p>
+
+2. Создайте и активируйте виртуальное окружение
+  <p><code>python3 -m venv .venv</code></p>
+  <p><code>source .venv/bin/activate</code></p>
+
+3. Установите зависимости
+  <p><code>pip install -r requirements.txt</code></p>
+
+4. Сгенерируйте парсер
+  <p><code>python3 src/generate_parser.py</code></p>
+
+5. Запустите систему
+  <p><code>python3 src/main.py</code></p>
