@@ -34,7 +34,10 @@ def check_structure():
         'tests/test_cases/arithmetic.pseudo', 
         'tests/test_cases/loops.pseudo',
         'examples/factorial.pseudo',
-        'examples/max_finder.pseudo'
+        'examples/max_finder.pseudo',
+        'src/parser.py',
+        'src/analyzer.py', 
+        'tests/run_syntax_tests.py'
     ]
     
     print("📁 ПРОВЕРКА ДИРЕКТОРИЙ:")
