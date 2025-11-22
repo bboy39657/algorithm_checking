@@ -14,8 +14,9 @@ source .venv/bin/activate
 
 # Установка зависимостей
 pip install -r requirements.txt
-Запуск проекта
-bash
+```
+### Запуск проекта
+```bash
 # Проверка структуры проекта
 python check_structure.py
 
