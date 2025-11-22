@@ -1,6 +1,5 @@
-grammar PseudocodeLexer;
+grammar FixedPseudocode;
 
-// Лексемы
 NUMBER    : [0-9]+;
 ID        : [a-zA-Z_][a-zA-Z_0-9]*;
 ASSIGN    : '=';
@@ -33,7 +32,6 @@ COMMA     : ',';
 STRING    : '"' ~["]* '"';
 WS        : [ \t\r\n]+ -> skip;
 
-// Синтаксис
 program     : statement+;
 statement   : assignment | conditional | loop | output;
 assignment  : ID ASSIGN expression SEMI;
