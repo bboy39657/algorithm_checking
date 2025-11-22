@@ -3,7 +3,7 @@
 ### Установка и настройка
 ```bash
 # Клонирование репозитория (если необходимо)
-git clone <repository-url>
+git clone https://github.com/bboy39657/algorithm_checking.git
 cd 009
 
 # Создание виртуального окружения
