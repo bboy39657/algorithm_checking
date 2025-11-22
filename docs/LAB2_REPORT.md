@@ -20,8 +20,9 @@
     ```pseudo
     x = 42;
     result = (a + b) * c / 2;
-    Условные операторы
-    pseudo
+    ```
+  + Условные операторы
+    ```pseudo
     if (x > 5) {
         y = 1;
     } else {
@@ -43,7 +44,6 @@
     // Циклы без тела
     while (condition);
     for i in range(1, 5);
-``
 
   + Блоки кода
     ```pseudo
