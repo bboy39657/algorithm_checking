@@ -1,0 +1,13 @@
+# Базовая программа - проверка условий и присваиваний
+x = 10;
+y = 5;
+
+if (x > y) {
+    result = x - y;
+    print("x is greater");
+} else {
+    result = y - x;
+    print("y is greater or equal");
+}
+
+print("Difference: " + result);
