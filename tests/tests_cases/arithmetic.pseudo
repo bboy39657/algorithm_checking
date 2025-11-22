@@ -1,0 +1,17 @@
+# Комплексные арифметические операции
+a = 15;
+b = 3;
+c = 4;
+
+# Различные арифметические выражения
+result1 = (a + b) * c;
+result2 = a / b + c * 2;
+result3 = (a - b) * (c + 1);
+
+# Проверка результатов
+if (result1 >= 50 && result2 != 0) {
+    print("Large results detected");
+    print("Result1: " + result1);
+    print("Result2: " + result2);
+    print("Result3: " + result3);
+}
