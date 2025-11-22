@@ -4,7 +4,7 @@
 ```bash
 # Клонирование репозитория (если необходимо)
 git clone https://github.com/bboy39657/algorithm_checking.git
-cd 009
+cd algorithm_checking
 
 # Создание виртуального окружения
 python3 -m venv .venv
